@@ -1,4 +1,4 @@
-import Navabar from "../components/Navabar.jsx";
+import Navbar from "../components/Navbar.jsx";
 import Head from "next/head";
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="logo" href="/favicon.io" />
       </Head>
 
-      <Navabar/>
+      <Navbar/>
     </div>
   );
 }
