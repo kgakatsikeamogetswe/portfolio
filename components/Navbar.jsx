@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     // Navbar container
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
-      {/* Navbar content */ }
+      {/* Navbar content */}
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         {/* Logo */}
         <Image

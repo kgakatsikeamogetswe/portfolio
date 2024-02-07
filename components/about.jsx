@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -12,7 +13,15 @@ const About = () => {
             <p>Write a program HelloGoodbye.java that takes two names as command-line arguments and prints hello and goodbye messages as shown below (with the names for the hello message in the same order as the command-line arguments and with the names for the goodbye message in reverse order).</p>
             <p>text e underline</p>
         </div>
-        <div></div>
+        <div>
+        <Image
+          src="/assets/profile/7B_361A5100.jpg"
+          alt="/"
+          width="500"
+          height="50"
+          className="animate-flip-up animate-twice animate-duration-[5000ms] animate-delay-100 shadow-lg shadow-gray-600"
+        />
+        </div>
     </div>
     </div>
   )
