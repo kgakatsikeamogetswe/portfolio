@@ -1,9 +1,7 @@
-import Image from 'next/image';
 import React from 'react';
-import Link from 'next/link';
-import mongodbImg from '../public/assets/projects/mongodb.png'
-import nextjsImg from '../public/assets/projects/nextjs,png'
-import ProjectItem from './ProjectItem'
+import mongodbImg from '../public/assets/projects/mongodb.png';
+import nextjsImg from '../public/assets/projects/nextjs.png';
+import ProjectItem from './ProjectItem';
 
 const projects = () => {
   return (
