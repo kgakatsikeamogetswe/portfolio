@@ -29,19 +29,19 @@ const Navbar = () => {
         {/* Desktop navigation links */}
         <ul className='hidden md:flex'>
           <Link href="/">
-            <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+          <li className='py-4 text-sm relative group'><span className="uppercase m-4">Home</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
           <Link href="/">
-            <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+          <li className='py-4 text-sm relative group'><span className="uppercase m-4">About</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
           <Link href="/">
-            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+          <li className='py-4 text-sm relative group'><span className="uppercase m-4">Skills</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
           <Link href="/">
-            <li className='ml-10 text-sm uppercase hover:border-b'>Project</li>
+          <li className='py-4 text-sm relative group'><span className="uppercase m-4">Projects</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
           <Link href="/">
-            <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+          <li className='py-4 text-sm relative group'><span className="uppercase m-4">Contact</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
         </ul>
 

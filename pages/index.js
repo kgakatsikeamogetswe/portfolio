@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar.jsx";
 import Main from "../components/Main.jsx"
 import About from "../components/About.jsx"
+import Skills from "../components/Skills.jsx"
 import Head from "next/head";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Navbar/>
       <Main/>
       <About/>
+      <Skills/>
     </div>
   );
 }
