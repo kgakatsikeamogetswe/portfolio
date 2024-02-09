@@ -12,13 +12,13 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ProjectItem 
             title='Foodies Delight' 
-            type='Group task'
+            type='Nextjs'
             backgroundImg={foodiesImg}
             projectUrl='/' 
           />
           <ProjectItem 
             title='Nextjs blog' 
-            type='Individual task'
+            type='Nextjs'
             backgroundImg={blogImg}
             projectUrl='/'
           />
