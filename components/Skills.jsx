@@ -101,7 +101,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/assets/skills/html5.png' alt='/' width='64' height='64' />
+                        <Image src='/assets/skills/Supabase.jpg' alt='/' width='64' height='64' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>SUPABASE</h3>
@@ -112,7 +112,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/assets/skills/mongodb.png' alt='/' width='64' height='64' />
+                        <Image src='/assets/skills/mongo1.png' alt='/' width='64' height='64' />
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>MONGODB</h3>
