@@ -11,10 +11,10 @@ const Contact = () => {
             <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='lg:p-4 h-full'>
                     <div>
-                        <img className='rounded-xl hover:scale-105 ease-in duration-300' src="" alt="/" />
+                        <img className='rounded-xl hover:scale-105 ease-in duration-300' src="/assets/connect.jpg" alt="/" />
                     </div>
                     <div>
-                        <h2 className='py-2'>Name here</h2>
+                        <h2 className='py-2'>Keamogetswe</h2>
                         <p>Front-End Developer</p>
                         <p>I am available anytime for any role</p>
                     </div>
