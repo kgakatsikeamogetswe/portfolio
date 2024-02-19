@@ -3,18 +3,30 @@ import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
+  const [shadow, setShadow] = useState()
 
   const handleNav = () => {
     setNav(!nav)
   }
+  
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90){
+        setShadow(true);
+      } else {
+        setShadow(false);
+      }
+    }
+    window.addEventListener('scroll', handleShadow);
+  },[])
 
   return (
     // Navbar container
-    <div className='fixed w-full h-20 shadow-xl z-[100]'>
+    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       {/* Navbar content */}
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         {/* Logo */}

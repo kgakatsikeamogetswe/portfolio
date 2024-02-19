@@ -74,15 +74,17 @@ const Contact = () => {
                                 <label className='uppercase text-sm py-2'>Message</label>
                                 <textarea className='border-2 rounded-lg p-3 border-gray-300' rows="10"></textarea>
                             </div>
-                            <button className='w-full p-4 text-gray-800 mt-4'>Send Message</button>
+                            
+                            <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
+                            
                         </form>
                     </div>
                 </div>
             </div>
             <div>
-                <Link href='/'>
-                    <div>
-                        <HiOutlineChevronDoubleUp/>
+                <Link className='flex justify-center py-12' href='/'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-100 ease-in duration-100'>
+                        <HiOutlineChevronDoubleUp className='text-[#333333]' size={30}/>
                     </div>
                 </Link>
             </div>
