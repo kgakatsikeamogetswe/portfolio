@@ -30,6 +30,7 @@ const Navbar = () => {
       {/* Navbar content */}
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         {/* Logo */}
+        <Link href='/'>        
         <Image
           src="/assets/navBarLogo.png"
           alt="/"
@@ -37,22 +38,23 @@ const Navbar = () => {
           height="10"
           className='h-20'
         />
+        </Link>
 
         {/* Desktop navigation links */}
         <ul className='hidden md:flex'>
           <Link href="/">
           <li className='py-4 text-sm relative group'><span className="uppercase m-4">Home</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
-          <Link href="/">
+          <Link href="/#abouts">
           <li className='py-4 text-sm relative group'><span className="uppercase m-4">About</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
-          <Link href="/">
+          <Link href="/#skills">
           <li className='py-4 text-sm relative group'><span className="uppercase m-4">Skills</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
-          <Link href="/">
+          <Link href="/#projects">
           <li className='py-4 text-sm relative group'><span className="uppercase m-4">Projects</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
-          <Link href="/">
+          <Link href="/#contacts">
           <li className='py-4 text-sm relative group'><span className="uppercase m-4">Contact</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
         </ul>

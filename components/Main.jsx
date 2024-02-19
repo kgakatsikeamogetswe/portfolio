@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 function Main() {
   return (
-    <div className='w-full h-screen flex justify-center items-center'>
+    <div id='home' className='w-full h-screen flex justify-center items-center'>
       <div className='max-w-[1240px] w-full p-2'>
         
         <div className='h-20 flex flex-col items-center'></div>
