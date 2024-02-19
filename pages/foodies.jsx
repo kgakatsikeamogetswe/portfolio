@@ -1,22 +1,22 @@
 import Image from 'next/image'
-import blogImg from '../public/assets/projects/blog.png';
+import foodiesImg from '../public/assets/projects/foodies.png';
 import React from 'react'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
-const blog = () => {
+const foodies = () => {
   return (
     <div className='w-full'>
         <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
             <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
             <Image
             className='absolute z-1' layout='fill' objectFit='cover'
-            src={blogImg}
+            src={foodiesImg}
             atl='/'
             />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-                <h2 className='py-2'>Nextjs Blog</h2>
-                <h3>Nextjs/ Javascript/ MongoDB/ HTML & CSS </h3>
+                <h2 className='py-2'>Foodie's Delight</h2>
+                <h3>Nextjs/ Tailwind/ Javascript/ MongoDB/ HTML & CSS </h3>
             </div>
         </div>
 
@@ -48,4 +48,4 @@ const blog = () => {
   )
 }
 
-export default blog
+export default foodies

@@ -14,14 +14,16 @@ const Projects = () => {
             title='Foodies Delight' 
             type='Nextjs'
             backgroundImg={foodiesImg}
-            projectUrl='blog' 
+            projectUrl='/foodies' 
           />
+
           <ProjectItem 
-            title='Nextjs blog' 
+            title='Nextjs Blog' 
             type='Nextjs'
             backgroundImg={blogImg}
-            projectUrl='/'
+            projectUrl='/blog' 
           />
+
         </div>
       </div>
     </div>

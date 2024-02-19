@@ -1,13 +1,32 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import React, {useState, useEffect} from 'react'
+import Image from 'next/image';
+import Link from 'next/link';
+import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
+import {FaLinkedinIn, FaGithub} from 'react-icons/fa';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+import React, {useState, useEffect} from 'react';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
-  const [shadow, setShadow] = useState()
+  const [shadow, setShadow] = useState(false)
+  const [navBg, setNavBg] = useState('#ecf0f3')
+  const [linkColor, setLinkColor] = useState('#1f3297')
+  const router = useRouter
+
+  useEffect(() => {
+  if(
+    router.asPath === "/blog" ||
+    router.asPath === "/foodies"
+  ) {
+    setNavBg("transperant")
+    setLinkColor("#ecf0f3")
+  } else {
+    setNavBg("#ecf0f3")
+    setLinkColor("#1f3297")
+
+  }
+
+  },[router])
 
   const handleNav = () => {
     setNav(!nav)
@@ -26,7 +45,7 @@ const Navbar = () => {
 
   return (
     // Navbar container
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
+    <div styles={{backgroundColor: `${navBg}`}} className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
       {/* Navbar content */}
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         {/* Logo */}
@@ -41,7 +60,7 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop navigation links */}
-        <ul className='hidden md:flex'>
+        <ul styles={{color: `${linkColor}`}} className='hidden md:flex'>
           <Link href="/">
           <li className='py-4 text-sm relative group'><span className="uppercase m-4">Home</span> <span className="absolute left-0 -bottom-1 w-full h-2 bg-gray-400 -z-10 group-hover:h-full group-hover:transition-all"></span></li>
           </Link>
