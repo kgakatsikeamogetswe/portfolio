@@ -28,18 +28,31 @@ const Contact = () => {
                             <p className='uppercase pt-8 '>Connect with me</p>
                             <div className='flex items-center justify-between py-4'>
                             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
+
+                                <a href='/'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <FaLinkedin/>
                                 </div>
+                                </a>
+
+                                <a href='/'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <FaGithub/>
                                 </div>
+                                </a>
+
+                                <a href='/'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <AiOutlineMail/>
                                 </div>
+                                </a>
+
+                                <a href='/'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <BsFillPersonLinesFill/>
                                 </div>
+                                </a>
+
                                 </div>
                             </div>
                     </div>

@@ -14,7 +14,7 @@ const Projects = () => {
             title='Foodies Delight' 
             type='Nextjs'
             backgroundImg={foodiesImg}
-            projectUrl='/' 
+            projectUrl='blog' 
           />
           <ProjectItem 
             title='Nextjs blog' 
