@@ -4,7 +4,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import Link from "next/link";
-
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -17,7 +17,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src="/assets/connect.jpg" alt="/" />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/assets/connect.jpg" width={50} height={50} alt="/" />
                         </div>
                         <div>
                             <h2 className='py-2'>Keamogetswe</h2>
@@ -29,29 +29,29 @@ const Contact = () => {
                             <div className='flex items-center justify-between py-4'>
                             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
-                                <a href='/'>
+                                <Link href='https://github.com/kgakatsikeamogetswe'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <FaLinkedin/>
                                 </div>
-                                </a>
+                                </Link>
 
-                                <a href='/'>
+                                <Link href='https://github.com/kgakatsikeamogetswe'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <FaGithub/>
                                 </div>
-                                </a>
+                                </Link>
 
-                                <a href='/'>
+                                <Link href='keamogetswekgakatsi11@gmail.com'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <AiOutlineMail/>
                                 </div>
-                                </a>
+                                </Link>
 
-                                <a href='/'>
+                                <Link href='/'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <BsFillPersonLinesFill/>
                                 </div>
-                                </a>
+                                </Link>
 
                                 </div>
                             </div>

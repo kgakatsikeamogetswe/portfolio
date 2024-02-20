@@ -13,7 +13,7 @@ function Main() {
         <div className='flex flex-col items-center'>
           <p className='uppercase text-sm tracking-widest text-gray-600 py-4 max-w-[70%] text-center'>Feel free to browse my portfolio</p>
           <h1 className='py-4 text-[#5b5b5b] max-w-[70%] text-center animate-bounce animate-infinite animate-duration-[5000ms] animate-delay-[10ms] animate-ease-in-out animate-alternate-reverse'>
-            Hi, I'm 
+            Hi, I am 
             <span className='text-[#302f2f] ml-3'>Keamogetswe</span>
           </h1>
           <h1 className='py-2 text-[#5b5b5b] max-w-[70%] text-center'>A Front-End Developer</h1>
