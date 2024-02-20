@@ -29,7 +29,7 @@ const Contact = () => {
                             <div className='flex items-center justify-between py-4'>
                             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
-                                <Link href='https://github.com/kgakatsikeamogetswe'>
+                                <Link href='www.linkedin.com/in/keamogetswe-kgakatsi-388239267'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <FaLinkedin/>
                                 </div>
