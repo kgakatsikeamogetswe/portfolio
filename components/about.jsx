@@ -8,7 +8,7 @@ const About = () => {
         <div className='cols-span-2'>
             <p className='text-xl uppercase tracking-widest text-[#5b5b5b]'>About</p>
             <h2 className='py-4'>WHO I AM?</h2>
-            <p className='py-2 text-gray-300 tracking-widest'>I'm not your developer</p>
+            <p className='py-2 text-gray-300 tracking-widest'>I am not your developer</p>
             <p className='py-2 text-gray-500'>This assignment is optional. Its sole purpose is to ensure that you can write simple Java programs, use algs4.jar, and submit them to the Coursera autograder.</p>
             <p className='py-2 text-gray-500'>Write a program HelloGoodbye.java that takes two names as command-line arguments and prints hello and goodbye messages as shown below (with the names for the hello message in the same order as the command-line arguments and with the names for the goodbye message in reverse order).</p>
             <p className='underline cursor-pointer py-2 text-gray-400'>text e underline</p>
