@@ -3,7 +3,7 @@ import blogImg from '../public/assets/projects/blog.png';
 import foodiesImg from '../public/assets/projects/foodies.png';
 import ProjectItem from './ProjectItem';
 
-const Projects = () => {
+const MyProjects = () => {
   return (
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
@@ -30,4 +30,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default MyProjects;
