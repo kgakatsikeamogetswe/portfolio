@@ -1,5 +1,4 @@
 import Main from "../components/Main.jsx";
-import AboutMe from '../components/Aboutme.jsx';
 import Skills from "../components/Skills.jsx";
 import MyProjects from '../components/MyProjects.jsx'; 
 import Contact from "../components/Contact.jsx";
@@ -16,7 +15,6 @@ export default function Home() {
 
       
       <Main/>
-      <AboutMe/>
       <Skills/>
       <MyProjects/>
       <Contact/>
