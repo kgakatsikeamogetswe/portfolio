@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from 'react-icons/ai';
@@ -55,6 +56,7 @@ const Navbar = () => {
           alt="/"
           width="125"
           height="10"
+          style={{ height: 'auto', width:'auto'  }}
           className='h-20'
         />
         </Link>
@@ -97,6 +99,7 @@ const Navbar = () => {
             width='87' 
             height='25' 
             alt="/" 
+            style={{ height: 'auto', width:'auto'  }}
             />
             </Link>
             <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>

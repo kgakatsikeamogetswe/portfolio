@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import Image from 'next/image';
 
@@ -19,6 +20,7 @@ const AboutMe = () => {
           alt="/"
           width="500"
           height="50"
+          style={{ height: 'auto', width:'auto'  }}
           className="rounded-xl animate-flip-up animate-twice animate-duration-[5000ms] animate-delay-100 "
         />
         </div>
