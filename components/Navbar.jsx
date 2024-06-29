@@ -54,8 +54,8 @@ const Navbar = () => {
         <Image
           src="/assets/navBarLogo.png"
           alt="/"
-          width="125"
-          height="10"
+          width={50} 
+          height={50}
           style={{ height: 'auto', width:'auto'  }}
           className='h-20'
         />
@@ -97,7 +97,7 @@ const Navbar = () => {
             <Image 
             src="/assets/navBarLogo.png"  
             width='87' 
-            height='25' 
+            height={15} 
             alt="/" 
             style={{ height: 'auto', width:'auto'  }}
             />
