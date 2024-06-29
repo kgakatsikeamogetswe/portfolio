@@ -1,3 +1,4 @@
+// pages/_app.js
 import Navbar from "../components/Navbar.jsx";
 import React from 'react';
 import '../styles/globals.css';
@@ -5,8 +6,8 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }) {
   return  <>
             <Navbar/>
-            <Component {...pageProps} />;
-          </> 
+            <Component {...pageProps} />
+          </>; 
 }
 
 export default MyApp;
