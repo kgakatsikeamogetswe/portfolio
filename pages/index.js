@@ -1,5 +1,5 @@
 import Main from "../components/Main.jsx";
-import AboutMe from '../components/Aboutme.jsx';
+import AboutMe from '../components/AboutMe.jsx';
 import Skills from "../components/Skills.jsx";
 import MyProjects from '../components/MyProjects.jsx'; 
 import Contact from "../components/Contact.jsx";
