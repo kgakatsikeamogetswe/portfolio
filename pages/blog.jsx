@@ -24,13 +24,13 @@ const blog = () => {
             <div className='col-span-4'>
                 <p>Project</p>
                 <h2>Overview</h2>
-                <p>Summary of the project here</p>
-                <Link href='/'>
+                <p>Welcome to my Next.js blog! This project showcases my skills using Next.js for building a simple yet functional blog. I decided to create a blog to demonstrate my proficiency in Next.js and Firebase</p>
+                <Link href='https://github.com/kgakatsikeamogetswe/blog-nextJS.git'>
                 <button className='px-8 py-2 mt-4 mr-8'>
                     Code
                 </button>
                 </Link>
-                <Link href='/'>
+                <Link href='keamogetswe.vercel.app/'>
                 <button className='px-8 py-2 mt-4 '>
                     Demo
                 </button>
@@ -40,6 +40,7 @@ const blog = () => {
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>Nextjs</p>
+                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>Firebase</p>
                             <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>Javascript</p>
                             <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>HTML & CSS</p>
                         </div>
