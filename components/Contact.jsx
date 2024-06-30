@@ -48,7 +48,7 @@ const Contact = () => {
                                 </div>
                                 </Link>
 
-                                <Link href='/'>
+                                <Link href='+27 679 777 367'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <BsFillPersonLinesFill/>
                                 </div>

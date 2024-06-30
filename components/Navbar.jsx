@@ -96,8 +96,9 @@ const Navbar = () => {
             <Link href='/'>
             <Image 
             src="/assets/navBarLogo.png"  
-            width='87' 
-            height={15} 
+            width={35} 
+            height={5}
+            className='h-20' 
             alt="/" 
             style={{ height: 'auto', width:'auto'  }}
             />
@@ -132,18 +133,31 @@ const Navbar = () => {
           <div className='pt-40'>
             <p className='uppercase tracking-widest text-[#2c1101e3]'>Connect with me</p>
             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+
+              <Link href='www.linkedin.com/in/keamogetswe-kgakatsi-388239267'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
               <FaLinkedinIn/>
               </div>
+              </Link>
+
+              <Link href='https://github.com/kgakatsikeamogetswe'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
               <FaGithub/>
               </div>
+              </Link>
+
+              <Link href="keamogetswekgakatsi11@gmail.com">
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
               <AiOutlineMail/>
               </div>
+              </Link>
+
+              <Link href= '+27 679 777 367'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
               <BsFillPersonLinesFill/>
               </div>
+              </Link>
+
             </div>
           </div>
         </div>
