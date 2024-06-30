@@ -24,9 +24,15 @@ const foodies = () => {
             <div className='col-span-4'>
                 <p>Project</p>
                 <h2>Overview</h2>
-                <p>Summary of the project here: hdbsfjfhjbj hgfdsgfdyfg dgfsdbjsbf hgfg</p>
-                <button className='px-8 py-2 mt-4 mr-8'>Code</button>
+                <p>Foodies Delight is a web application built with React and Next.js, designed to cater to culinary enthusiasts who love exploring and sharing delicious recipes. Whether you're a seasoned chef or a home cook, Foodies Delight provides a platform to discover and contribute to a diverse collection of recipes.</p>
+                
+                <Link href="https://github.com/CodeSpace-Academy/ASE_2023_GROUP_F.git">
+                <button className='px-8 py-2 mt-4 '>Code</button>
+                </Link>
+
+                <Link href="foodiesdelight.vercel.app/">
                 <button className='px-8 py-2 mt-4 '>Demo</button>
+                </Link>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='p-2'>
                         <p className='text-center font-bold pb-2'>Technologies</p>
@@ -40,7 +46,7 @@ const foodies = () => {
                     </div>
                 </div>
                 <Link  href='/#projects'>
-                    <p className='underline cursor-pointer'>Back</p>
+                 <button className='px-8 py-2 mt-4 '>Back</button>
                 </Link>
             </div>
         </div>

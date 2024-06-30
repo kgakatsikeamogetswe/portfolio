@@ -25,22 +25,28 @@ const blog = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>Summary of the project here</p>
-                <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-                <button className='px-8 py-2 mt-4 '>Demo</button>
+                <Link href='/'>
+                <button className='px-8 py-2 mt-4 mr-8'>
+                    Code
+                </button>
+                </Link>
+                <Link href='/'>
+                <button className='px-8 py-2 mt-4 '>
+                    Demo
+                </button>
+                </Link>
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='p-2'>
                         <p className='text-center font-bold pb-2'>Technologies</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>Nextjs</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>Tailwind</p>
                             <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>Javascript</p>
-                            <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>MongoDB</p>
                             <p className='text-gray-600 py-2 flex items-center'><RiRadioButtonFill className='pr-2'/>HTML & CSS</p>
                         </div>
                     </div>
                 </div>
                 <Link  href='/#projects'>
-                    <p className='underline cursor-pointer'>Back</p>
+                    <button className='px-8 py-2 mt-4 '>Back</button>
                 </Link>
             </div>
         </div>
