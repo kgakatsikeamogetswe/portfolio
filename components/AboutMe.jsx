@@ -23,7 +23,7 @@ const AboutMe = () => {
         </div>
         <div className='w-full h-auto shadow-xl shadow-gray-600 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
         <Image
-          src="/assets/profile/7B_361A5100.jpg"
+          src="/assets/profile/7b_361A5100.jpg"
           alt="/"
           width="500"
           height="50"

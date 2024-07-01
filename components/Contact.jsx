@@ -18,19 +18,21 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/assets/connect.jpg" width='50' height='50' style={{ height: 'auto', width:'auto'  }} alt="/" />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src="/assets/connect.jpg" width='350' height='350' style={{ height: 'auto', width:'auto'  }} alt="/" />
                         </div>
                         <div>
-                            <h2 className='py-2'>Keamogetswe</h2>
-                            <p>Front-End Developer</p>
-                            <p className='py-4'>I am available anytime for any role</p>
+                            <h2 className='py-2'>Software developer</h2>
+                            <p>
+                                I am committed to continuous learning and staying current with emerging technologies. You can connect with me on LinkedIn or reach out via phone at +27 679777367 or email at keamogetswekgakatsi11@gmail.com.
+                            </p>
+                            <p className='py-4 text-gray-300 tracking-widest'>I am available anytime for any role</p>
                         </div>
                         <div>
                             <p className='uppercase pt-8 '>Connect with me</p>
                             <div className='flex items-center justify-between py-4'>
                             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
-                                <Link href='www.linkedin.com/in/keamogetswe-kgakatsi-388239267'>
+                                <Link href='https://www.linkedin.com/in/keamogetswe-kgakatsi-388239267'>
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-100 ease-in duration-100'>
                                     <FaLinkedin/>
                                 </div>

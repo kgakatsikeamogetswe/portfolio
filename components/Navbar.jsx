@@ -134,7 +134,7 @@ const Navbar = () => {
             <p className='uppercase tracking-widest text-[#2c1101e3]'>Connect with me</p>
             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
 
-              <Link href='www.linkedin.com/in/keamogetswe-kgakatsi-388239267'>
+              <Link href='https://www.linkedin.com/in/keamogetswe-kgakatsi-388239267'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-100'>
               <FaLinkedinIn/>
               </div>

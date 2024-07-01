@@ -30,7 +30,7 @@ const blog = () => {
                     Code
                 </button>
                 </Link>
-                <Link href='keamogetswe.vercel.app/'>
+                <Link href='https://keamogetswe.vercel.app/'>
                 <button className='px-8 py-2 mt-4 '>
                     Demo
                 </button>
