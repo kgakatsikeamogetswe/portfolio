@@ -10,7 +10,7 @@ const AboutMe = () => {
         <div className='cols-span-2'>
             <p className='text-xl uppercase tracking-widest text-[#5b5b5b]'>About</p>
             <h2 className='py-4'>WHO I AM?</h2>
-            <p className='py-2 text-gray-300 tracking-widest'>I am not your developer</p>
+            <p className='py-2 text-gray-300 tracking-widest'>I am trying my best to be your developer!</p>
             <p className='py-2 text-gray-500'>
               I am a software engineer from South Africa with a robust academic background in Information Technology and Computer Science from Orbit TVET College. Additionally, I hold a Software Engineering certificate from Codespace Academy.
             </p>
